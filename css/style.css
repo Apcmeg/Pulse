@@ -44,13 +44,13 @@ body { width: 100%; font-family: "Museo Sans"; }
 
 .presentation__links-catalog a { color: #ffffff; text-decoration: underline; }
 
-@-webkit-keyframes heartbeat { from { -webkit-transform: scale(1); transform: scale(1); }
+@-webkit-keyframes heartbeat { 0% { -webkit-transform: scale(1); transform: scale(1); }
   50% { -webkit-transform: scale(1.5); transform: scale(1.5); }
-  to { -webkit-transform: scale(1); transform: scale(1); } }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
 
-@keyframes heartbeat { from { -webkit-transform: scale(1); transform: scale(1); }
+@keyframes heartbeat { 0% { -webkit-transform: scale(1); transform: scale(1); }
   50% { -webkit-transform: scale(1.5); transform: scale(1.5); }
-  to { -webkit-transform: scale(1); transform: scale(1); } }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
 
 .advantages { min-height: 453px; padding: 73px 0px 65px 0px; background: #f6f6f6; }
 
