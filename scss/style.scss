@@ -1,0 +1,103 @@
+body {
+   width: 100%;
+   font-family: "Museo Sans";
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+.container {
+   max-width: 947px;
+   margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "base/animations";
+@import "blocks/advantages";
+@import "blocks/form";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/review";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "base/media";
+
+@media (max-width: 991px) {
+   //promo
+   .promo {
+      padding: 21px 20px 93px 20px;
+   }
+   .presentation__links-button {
+      margin-bottom: 20px;
+   }
+}
+@media (max-width: 768px) {
+   //promo
+   .promo {
+      min-height: 500px;
+      padding-bottom: 60px;
+   }
+   .header__item {
+   }
+   .header-logo {
+      img {
+         width: 180px;
+      }
+   }
+   .middle-header-row {
+      span {
+         font-size: 13px;
+      }
+   }
+   .right-header-row {
+      font-size: 11px;
+      a {
+         font-size: 14px;
+      }
+      button {
+         width: 114px;
+         height: 24px;
+         font-size: 9px;
+      }
+   }
+   .presentation__head {
+      & h1 {
+         margin-bottom: 12px;
+         font-size: 33px;
+      }
+      & h2 {
+         font-size: 19px;
+      }
+   }
+   .icons__row {
+      min-width: 325px;
+      justify-content: space-between;
+      margin-bottom: 55px;
+   }
+   .icons__item {
+      // margin-left: 20px;
+      img {
+         width: 37px;
+         height: 39px;
+      }
+      span {
+         font-size: 13px;
+      }
+   }
+   .presentation__links-button {
+      width: 228px;
+      height: 44px;
+      font-size: 14px;
+   }
+   .presentation__links-catalog {
+      a {
+         font-size: 15px;
+      }
+   }
+}
+@media (max-width: 576px) {
+   //promo
+}
+@media (max-width: 320px) {
+}
